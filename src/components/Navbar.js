@@ -55,14 +55,14 @@ export const renderNavbar = () => {
 
       ${
         !isLoggedIn
-          ? `<li><a href="#/" class="${getActiveClass("#/")}">Home</a></li>
+          ? `<li><a href="#/" class="${getActiveClass("#/")}">Beranda</a></li>
            <li><a href="#/about" class="${getActiveClass(
              "#/about"
-           )}">About</a></li>
+           )}">Tentang</a></li>
            <li><a href="#/contact" class="${getActiveClass(
              "#/contact"
-           )}">Contact</a></li>
-           <li><a href="#/login" class="px-6 py-2 border-2 border-blue-600 text-blue-600 rounded-full hover:bg-blue-600 hover:text-white hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out font-semibold ml-4 transform btn-transition">Login</a></li>
+           )}">Kontak</a></li>
+           <li><a href="#/login" class="px-6 py-2 border-2 border-blue-600 text-blue-600 rounded-full hover:bg-blue-600 hover:text-white hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out font-semibold ml-4 transform btn-transition">Masuk</a></li>
            <li><a href="#/register" class="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full hover:from-blue-700 hover:to-purple-700 transition-all duration-300 ease-in-out font-semibold shadow-lg hover:shadow-2xl transform hover:scale-105 hover:-translate-y-1 btn-transition">Register</a></li>`
           : `<li><a href="#/dashboard" class="${getActiveClass(
               "#/dashboard"

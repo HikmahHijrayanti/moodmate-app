@@ -13,7 +13,7 @@ export default async function LoginView() {
   return `
     <section class="max-w-md mx-auto mt-20 p-8 bg-white rounded-2xl shadow-lg border border-gray-200 dark:bg-gray-900 dark:border-gray-700">
       <!-- Form Login -->
-      <h2 class="text-3xl font-extrabold text-center text-blue-600 mb-8 dark:text-blue-400">Login</h2>
+      <h2 class="text-3xl font-extrabold text-center text-blue-600 mb-8 dark:text-blue-400">Masuk</h2>
       <form id="form-login" class="space-y-6">
         <input
           type="email"
@@ -52,7 +52,7 @@ export default async function LoginView() {
 
       <!-- Link Lupa Password -->
       <p class="text-center text-sm mt-4 text-gray-600 dark:text-gray-400">
-        <a href="#" id="forgot-password-link" class="text-blue-600 hover:underline dark:text-blue-400">Lupa Password?</a>
+        <a href="#" id="forgot-password-link" class="text-blue-600 hover:underline dark:text-blue-400">Lupa Kata Sandi?</a>
       </p>
       <p class="text-center text-sm mt-2 text-gray-600 dark:text-gray-400">
         Belum punya akun? <a href="#/register" class="text-blue-600 hover:underline dark:text-blue-400">Daftar di sini</a>
@@ -64,8 +64,8 @@ export default async function LoginView() {
           <div class="bg-white dark:bg-gray-900 rounded-2xl shadow-xl w-full max-w-md border border-gray-200 dark:border-gray-700 max-h-[90vh] overflow-y-auto">
             <!-- Header Modal -->
             <div class="text-center p-6 pb-4 border-b border-gray-200 dark:border-gray-700">
-              <h3 class="text-2xl font-extrabold text-blue-600 dark:text-blue-400">Reset Password</h3>
-              <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">Silakan isi formulir di bawah untuk mereset password Anda</p>
+              <h3 class="text-2xl font-extrabold text-blue-600 dark:text-blue-400">Reset Kata Sandi</h3>
+              <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">Silakan isi formulir di bawah untuk mereset kata sandi Anda</p>
             </div>
 
             <div class="p-6">
@@ -85,7 +85,7 @@ export default async function LoginView() {
 
                 <!-- Password Baru Field dengan Toggle -->
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Password Baru</label>
+                  <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Kata Sandi Baru</label>
                   <div class="relative">
                     <input
                       type="password"
@@ -109,7 +109,7 @@ export default async function LoginView() {
 
                 <!-- Konfirmasi Password Field dengan Toggle -->
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Konfirmasi Password</label>
+                  <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Konfirmasi Kata Sandi</label>
                   <div class="relative">
                     <input
                       type="password"

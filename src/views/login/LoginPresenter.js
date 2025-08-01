@@ -173,7 +173,7 @@ export default function LoginPresenter() {
               new CustomEvent("userLoggedIn", { detail: result.data.user })
             );
             renderNavbar();
-            showNotification("Login berhasil!", "success");
+            showNotification("Berhasil masuk!", "success");
 
             setTimeout(() => {
               window.location.hash = "/dashboard";
